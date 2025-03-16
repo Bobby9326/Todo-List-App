@@ -73,9 +73,6 @@ todo_project/
 - Click `🗑️` to delete a task
 - Click `✅` to mark a task as completed  
 
-## 📷 Screenshots
-![Todo List UI](https://via.placeholder.com/800x400?text=Todo+List+UI)
-![Add Task UI](https://via.placeholder.com/800x400?text=Add+Task+UI)
 
 ## 💡 Future Improvements
 - 🔐 Authentication system (Login/Register)
