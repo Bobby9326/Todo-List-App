@@ -10,7 +10,6 @@
 
 ## 🚀 Features
 - ✅ Add, edit, delete, and mark tasks as completed
-- 👤 Multi-user support with authentication
 - 📅 Tasks are sorted by the latest created date
 - 🎨 UI designed with Bootstrap and Font Awesome
 - 🔥 Interactive animations for better user experience
