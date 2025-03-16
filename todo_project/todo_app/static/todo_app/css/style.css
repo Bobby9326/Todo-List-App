@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Kanit', sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+.todo-item.completed h5 {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.todo-actions .btn {
+    margin-left: 5px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    padding: 15px 20px;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Animation */
+.btn:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s;
+}
+
+/* For Thai font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap');

@@ -1,0 +1,27 @@
+{% extends 'todo_app/base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow">
+            <div class="card-header bg-danger text-white">
+                <h4 class="mb-0">ยืนยันการลบ</h4>
+            </div>
+            <div class="card-body">
+                <p>คุณต้องการลบงาน "<strong>{{ object.title }}</strong>" ใช่หรือไม่?</p>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="d-flex justify-content-between">
+                        <a href="{% url 'todo:list' %}" class="btn btn-secondary">
+                            <i class="fas fa-times me-1"></i>ยกเลิก
+                        </a>
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash me-1"></i>ลบ
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
